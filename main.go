@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/soumirel/soumirelgo"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	soumirelgo.Say()
 }
